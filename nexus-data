@@ -1,0 +1,3 @@
+#!/bin/bash
+docker rm nexus-data
+docker run --name nexus-data -v /sonatype-work busybox
