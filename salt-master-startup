@@ -1,0 +1,9 @@
+#!/bin/bash
+docker rm -f salt-master
+docker run \
+--name salt-master \
+-p 1022:22 \
+-p 4505:4505 \
+-p 4506:4506 \
+--volumes-from=salt-data \
+-d 10.117.105.140:5000/shareinto/salt-master:0.1

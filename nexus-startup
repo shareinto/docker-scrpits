@@ -1,0 +1,3 @@
+#!/bin/bash
+docker rm  -f nexus
+docker run --name nexus -p 8081:8081 -d --volumes-from=nexus-data -u root sonatype/nexus 

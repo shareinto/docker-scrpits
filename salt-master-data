@@ -1,0 +1,3 @@
+#!/bin/bash
+docker rm salt-data
+docker run --name salt-data -v /etc/salt/pki -v /var/cache/salt -v /etc/salt/master.d -v /srv/salt busybox
