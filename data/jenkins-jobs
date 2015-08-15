@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name jenkins-jobs -v /data/jenkins/jobs busybox

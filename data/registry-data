@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name registry-data -v /var/lib/registry busybox

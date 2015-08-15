@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name jenkins-config -v /data/jenkins busybox

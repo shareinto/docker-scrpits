@@ -1,3 +1,0 @@
-#!/bin/bash
-docker rm -f registry
-docker run --name registry -d -p 5000:5000 --volumes-from=registry-data registry:2

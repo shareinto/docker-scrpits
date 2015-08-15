@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name jenkins-mvn-cache -v /home/.m2/repository busybox
